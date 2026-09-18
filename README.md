@@ -14,3 +14,11 @@ Automated API test suite created in Postman to validate CRUD operations and erro
 2. Open **Postman** -> Click **Import** -> Upload the file.
 3. Set an environment variable `baseUrl` = `https://dummyjson.com`.
 4. Run the collection using Postman Collection Runner.
+
+## 🗄️ SQL Data Analytics & Validation (Sakila DB)
+Practical SQL scripts executed against the relational Sakila database (`sakila_sql_practice.sql`).
+
+- **Filtering & Sorting:** Data selection using `WHERE`, `LIMIT`, and `ORDER BY`.
+- **Aggregations:** Analytics with `COUNT`, `SUM`, `AVG`, `GROUP BY`, and `HAVING`.
+- **Multi-Table Relational Queries:** Combining data via `INNER JOIN` and `LEFT JOIN`.
+- **Missing Data Handling:** Identifies records with no matches using `IS NULL`.
