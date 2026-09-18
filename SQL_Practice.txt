@@ -1,0 +1,68 @@
+SELECT *
+FROM actor
+LIMIT 5;
+
+SELECT title, description, release_year 
+FROM film;
+
+SELECT * 
+FROM customer 
+WHERE active = 1;
+
+SELECT title, length 
+FROM film 
+WHERE length > 120;
+
+SELECT * 
+FROM payment 
+WHERE amount > 5
+ORDER BY payment_date DESC;
+
+SELECT title, rating 
+FROM film 
+WHERE rating = 'PG-13' 
+ORDER BY title ASC;
+
+SELECT COUNT(*)
+FROM customer;
+
+SELECT AVG(length) 
+FROM film;
+
+SELECT SUM(amount) 
+FROM payment;
+
+SELECT rating, COUNT(*) 
+FROM film 
+GROUP BY rating;
+
+SELECT customer_id, SUM(amount) 
+FROM payment 
+GROUP BY customer_id;
+
+SELECT customer_id, SUM(amount) 
+FROM payment 
+GROUP BY customer_id 
+HAVING SUM(amount) > 100;
+
+SELECT rating, AVG(length) 
+FROM film 
+GROUP BY rating 
+HAVING AVG(length) > 115;
+
+SELECT film.title, language.name
+FROM film
+INNER JOIN language ON film.language_id = language.language_id;
+
+SELECT address.address, city.city
+FROM address
+INNER JOIN city ON address.city_id = city.city_id;
+
+SELECT customer.first_name, customer.last_name, payment.payment_date
+FROM customer
+LEFT JOIN payment ON customer.customer_id = payment.customer_id;
+
+SELECT customer.first_name, customer.last_name
+FROM customer
+LEFT JOIN payment ON customer.customer_id = payment.customer_id
+WHERE payment.payment_id IS NULL;
