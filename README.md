@@ -1,6 +1,6 @@
 # QA Technical Practice: API Testing & SQL Analytics
 
-A technical showcase repository for a Junior / Strong Junior QA Engineer, demonstrating hands-on experience with REST API testing in Postman and relational database queries in SQL.
+A technical showcase repository for a Junior QA Engineer, demonstrating hands-on experience with REST API testing in Postman and relational database queries in SQL.
 
 ---
 
