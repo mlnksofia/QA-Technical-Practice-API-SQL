@@ -4,7 +4,7 @@ A technical showcase repository for a Junior QA Engineer, demonstrating hands-on
 
 ---
 
-## 🚀 1. API Postman collection.json (DummyJSON API)
+## 🚀 1. Postman API testing (DummyJSON API)
 Automated API test collection created in Postman to validate CRUD operations, assertion status codes, and error handling for public endpoints.
 
 ### 🛠️ Key Features & Technical Scope
@@ -15,7 +15,7 @@ Automated API test collection created in Postman to validate CRUD operations, as
 - **Test Execution:** Executed end-to-end collection runs using **Postman Collection Runner**.
 
 ### 📁 How to Run
-1. Download or clone `API_postman_collection` from this repository.
+1. Download or clone `API_postman_collection.json` from this repository.
 2. Open **Postman** -> Click **Import** -> Upload the file.
 3. Set an environment variable `baseUrl` = `https://dummyjson.com`.
 4. Execute the suite via **Postman Collection Runner**.
