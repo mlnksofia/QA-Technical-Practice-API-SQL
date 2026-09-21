@@ -4,7 +4,7 @@ A technical showcase repository for a Junior QA Engineer, demonstrating hands-on
 
 ---
 
-## 🚀 1. Postman API Testing Practice (DummyJSON API)
+## 🚀 1. API Postman collection.json (DummyJSON API)
 Automated API test collection created in Postman to validate CRUD operations, assertion status codes, and error handling for public endpoints.
 
 ### 🛠️ Key Features & Technical Scope
